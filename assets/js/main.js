@@ -1,3 +1,7 @@
+var _= require('lodash');
+console.log(_);
+
+
 /*=============== SHOW HIDDEN - PASSWORD ===============*/
 const showHiddenPassword = (inputPassword, inputIcon) => {
   const input = document.getElementById(inputPassword),
